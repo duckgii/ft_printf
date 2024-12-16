@@ -1,7 +1,7 @@
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 SCRS = ft_printf.c print_format.c print_format2.c
-NAME = libftprintf.a
+NAME = printf.a
 OBJECTS = $(SCRS:.c=.o)
 
 all : $(NAME)
